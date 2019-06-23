@@ -1,0 +1,92 @@
+/* Copy/paste
+
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'PT Sans', sans-serif;
+
+Facebook blue
+#3C5A99 
+*/
+
+/* Global
+=========================== */
+body {
+    margin: 0;
+    padding: 0;
+    background: lightgrey;
+}
+
+h2,
+h3 {
+    font-family: 'PT Sans', sans-serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+
+
+/* Header
+============================ */
+.header {
+    background: #3C5A99;
+    min-height: 100px;
+    ;
+}
+
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    padding: auto, 0, auto, 0;
+    float: left;
+
+}
+
+.header p {
+    color: white;
+    font-size: 12px;
+    margin: 5px, 5px, 5px, 0;
+}
+
+.submit-btn,
+.userid,
+.password {
+    float: right;
+    block-size: 140px;
+}
+
+.submit-btn {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    max-height: 22px;
+    font-size: 12px;
+    background: #4267b2;
+    border: 1px solid navy;
+    color: white;
+    margin-top: 47px;
+}
+
+.submit-btn:hover {
+    background: #3C5A99;
+}
+
+
+
+.userid,
+.password {
+    padding: 10px;
+}
+
+/* Left Col
+============================ */
+
+/* Right Col
+============================ */
+
+/* Footer
+============================ */
