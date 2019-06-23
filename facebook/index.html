@@ -40,19 +40,19 @@
             <div class="card">
                 <img src="images/book.png">
                 <p><span>See photos and updates</span>
-                from friends in News Feed.</p>
+                    from friends in News Feed.</p>
             </div>
 
             <div class="card">
                 <img src="images/star.png">
                 <p><span>Share what's new </span>
-                in your life on your Timeline.</p>
+                    in your life on your Timeline.</p>
             </div>
 
             <div class="card">
                 <img src="images/network.png">
                 <p><span>Find more</span>
-                of what you're looking for with Facebook Search.</p>
+                    of what you're looking for with Facebook Search.</p>
             </div>
 
         </div>
@@ -241,27 +241,33 @@
             </select>
 
             <img src="images/question-mark.png" aria-label="Date Question" title="Click for more information"
-                width="16px">
+                width="16px" class="info">
 
             <h4>Gender</h4>
-            <input type="radio" name="gender" value="male" checked> Male
-            <input type="radio" name="gender" value="female">Female
-            <input type="radio" name="gender" value="custom">Custom
 
-            <img src="images/question-mark.png" aria-label="Gender Question" title="Click for more information"
-                width="16px">
+            <div id="gender-select">
+                <span><input type="radio" name="gender" value="male" checked><label>Male</label></span>
+                <span><input type="radio" name="gender" value="female"><label>Female</label></span>
+                <span><input type="radio" name="gender" value="custom"><label>Custom</label></span>
+                <img src="images/question-mark.png" aria-label="Gender Question" title="Click for more information"
+                    width="16px" class="info">
+            </div>
 
-            <p>By clicking Sign Up, you agree to our <a href="https://www.facebook.com/legal/terms/update">Terms</a>, <a
-                    href="https://www.facebook.com/about/privacy/update"> Data Policy</a> and , <a
-                    href="https://www.facebook.com/policies/cookies/">Cookies Policy</a>. You may receive SMS
-                Notifications
-                from us and can opt out any time.</p>
 
-            <button type="submit">Sign Up</button>
+            <div id="legal">
+                <p>By clicking Sign Up, you agree to our <a
+                        href="https://www.facebook.com/legal/terms/update">Terms</a>, <a
+                        href="https://www.facebook.com/about/privacy/update"> Data Policy</a> and, <a
+                        href="https://www.facebook.com/policies/cookies/">Cookies Policy</a>. You may receive SMS
+                    Notifications
+                    from us and can opt out any time.</p>
+            </div>
+            <button type="submit" id="signup">Sign Up</button><br>
+            <div id="page-create">
+                <span><a href="https://www.facebook.com/pages/create/?ref_type=registration_form">Create a Page</a> for a
 
-            <p><a href="https://www.facebook.com/pages/create/?ref_type=registration_form">Create a Page</a> for a
-                celebrity,
-                band or business</p>
+                    celebrity, band or business.</span>
+            </div>
         </div>
     </div>
     <!-- Footer -->
