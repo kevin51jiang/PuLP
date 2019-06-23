@@ -272,5 +272,26 @@ footer {
 }
 
 .langs {
-    display:inline;
+    display: inline-block;
 }
+
+.langs ul{
+    list-style-type: none;
+    overflow:hidden;
+    
+font-family: 'Roboto', sans-serif;
+}
+
+.langs li {
+    font-size: 12px;
+    float: left;
+    margin: 5px;
+    text-decoration: none;
+}
+
+#copyright p{
+    
+    color:lightslategray;
+    font-size: 10px;
+}
+
