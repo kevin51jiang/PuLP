@@ -3,32 +3,37 @@
 
 <head>
     <title>Google</title>
-    <link href="styles/styles.css" type="styles">
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 
 <body>
     <header>
-        <div class="top-left">
+        <div id="top-left" class="link-list left-align">
             <a href="lincc" aria-roledescription="Link to about page">About</a>
             <a href="lincc" aria-roledescription="Link to store page">Store</a>
         </div>
 
 
-        <div class="top-right">
-            <a href="lincc" aria-roledescription="Link to Gmail">Gmail</a>
+        <div id="top-right" class="link-list right-align">
+            <a href="lincc" aria-roledescriptsion="Link to Gmail">Gmail</a>
             <a href="lincc" aria-roledescription="Link to Google Images">Images</a>
-            <button type="menu" role="button" aria-roledescription="Link to list of google apps">Apps</button>
-            <image src="images/pfp.png" alt="Your profile picture"></image>
+            <button id="btn-apps" class="btn" type="menu" role="button"
+                aria-roledescription="Link to list of google apps"></button>
+            <div class="pfp-container">
+                <img src="images/pfp.png" alt="Your profile picture" class="circle" title="Google Account: John Smith
+(john.smith@gmail.com)">
+            </div>
         </div>
     </header>
 
-    <div class="center">
-        <image src="images/logo.png" alt="Google Logo"></image><br>
-        
-        <input type="text" id="search-bar"><br>
+    <div id="center">
+        <img src="images/logo.png" alt="Google Logo"><br>
+
+        <input type="text" id="search-bar">
+        <img src="images/googlemic.png" alt="Google speech search"><br>
         <button type="submit">Google Search</button>
         <button type="button">I'm Feeling Lucky</button>
-        <div class="new-lang">
+        <div id="new-lang">
             <span>Google offered in: </span><a href="lincc">Français</a>
         </div>
     </div>
@@ -38,13 +43,13 @@
             <a href="lincc">Canada</a>
         </p>
 
-        <div class="bottom-left">
+        <div class="bottom-left link-list left-align">
             <a href="lincc">Advertising</a>
             <a href="lincc">Business</a>
             <a href="lincc">How Search Works</a>
         </div>
 
-        <div class="bottom-right">
+        <div class="bottom-right link-list right-align">
             <a href="lincc">Privacy</a>
             <a href="lincc">Terms</a>
             <a href="lincc">Settings</a>
