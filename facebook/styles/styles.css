@@ -1,0 +1,297 @@
+/* Copy/paste
+
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'PT Sans', sans-serif;
+
+Facebook blue
+#3C5A99 
+*/
+
+/* Global
+=========================== */
+
+html {
+    overflow: auto;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #edf0f5;
+    min-width: 1000px;
+}
+
+h2,
+h3 {
+    font-family: 'PT Sans', sans-serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.content-wrap {
+    display: block;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: 0 auto;
+    width: 1000px;
+    max-width: 100%;
+}
+
+/* fancy links that don't have underlines by default */
+a {
+    text-decoration:none;
+    color: #385898;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* Header
+============================ */
+.header {
+    background: #3C5A99;
+    padding: 10px;
+    padding-left: 0;
+    min-height: 63px;
+
+}
+
+
+h1 {
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    float: left;
+    margin-top: 4px;
+    margin-bottom: auto;
+
+}
+
+.header p {
+    color: white;
+    font-size: 12px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.submit-btn,
+.userid,
+.password {
+    float: right;
+    block-size: 50px;
+    margin: 0, 10px;
+}
+
+.short-text {
+    width: 130px;
+}
+
+.submit-btn {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    max-height: 22px;
+    font-size: 12px;
+    background: #4267b2;
+    border: 1px solid navy;
+    color: white;
+    margin-top: 23px;
+}
+
+.submit-btn:hover {
+    background: #3C5A99;
+    cursor: pointer;
+}
+
+.userid,
+.password {
+
+    margin-bottom: 10px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.password a {
+    margin-top: 5px;
+    color: #9cb4d8;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+
+/* Left Col
+============================ */
+.left-col {
+    width: 50%;
+    float: left;
+    padding-top: 40px;
+}
+
+.left-col h2 {
+    font-size: 30px;
+}
+
+.card {
+    min-height: 70px;
+    color:#333;
+}
+
+.card img {
+    float:left;
+}
+
+.card span, .card p {
+    display: inline-block;
+}
+
+.card p {
+    font-size: 15px;
+}
+
+.card span {
+    font-family: 'Roboto', sans-serif;
+    font-weight:bold;
+    font-size: 17px;
+   
+}
+
+
+
+/* Right Col
+============================ */
+
+.right-col {
+    float: right;
+    width: 50%;
+}
+
+.right-col h2 {
+    font-size: 36px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.right-col h3 {
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+
+.name-field, .long-input {
+    font-family: 'Roboto', sans-serif;
+    display:inline-block;
+    height:21px;
+    font-size:18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left:10px;
+    padding-right:10px;
+    margin-top: 10px;
+    border-radius: 5px;
+     -webkit-appearance: none;
+    -moz-appearance: none; 
+    border: 1px solid #bdc7d8
+}
+
+.name-field {
+    width: 195px;
+}
+
+.long-input {
+    width: 418px;
+}
+
+/* website only uses h4s in this column */
+h4 { 
+    color: slategray;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+select {
+    font-size: 13px;
+    padding: 5px;
+    border:1px solid lightgray;
+}
+
+#gender-select span {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding-right: 10px;
+}
+
+/* make it seem "clickable" without addjing javascript */
+.info:hover {
+    background:white;
+    cursor: pointer; 
+}
+
+#legal {
+    max-width: 280px;
+}
+
+#legal p{
+    color: lightslategray;
+    font-size: 11px;
+}
+
+#signup {
+    background:#578843;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+}
+
+#page-create {
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+
+/* Footer
+============================ */
+footer {
+    margin-top: 550px;
+    background:white;
+}
+
+.langs {
+    display: inline-block;
+}
+
+.langs ul{
+    list-style-type: none;
+    overflow:hidden;
+    
+font-family: 'Roboto', sans-serif;
+}
+
+.langs li {
+    font-size: 12px;
+    float: left;
+    margin: 5px;
+    text-decoration: none;
+}
+
+#copyright p{
+    
+    color:lightslategray;
+    font-size: 10px;
+}
+
