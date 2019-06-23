@@ -272,12 +272,14 @@ footer {
 }
 
 .langs {
+    padding-left:0;
     display: inline-block;
 }
 
 .langs ul{
     list-style-type: none;
     overflow:hidden;
+    padding-left: 0px;
     
 font-family: 'Roboto', sans-serif;
 }
@@ -289,9 +291,10 @@ font-family: 'Roboto', sans-serif;
     text-decoration: none;
 }
 
-#copyright p{
-    
+
+#copyright span{
     color:lightslategray;
     font-size: 10px;
+    min-width: pad;
 }
 
