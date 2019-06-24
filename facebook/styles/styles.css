@@ -295,6 +295,6 @@ font-family: 'Roboto', sans-serif;
 #copyright span{
     color:lightslategray;
     font-size: 10px;
-    min-width: pad;
+    font-family: 'Roboto', sans-serif;
 }
 
