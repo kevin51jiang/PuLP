@@ -1,7 +1,118 @@
-/* html {
-    background: black;
-} */
+/* Copy Paste =========
+font-family: 'Roboto', sans-serif;
+font-family: 'Oxygen', sans-serif;
+font-family: 'Ubuntu', sans-serif;
 
-h1 {
-    color: red
+font-family: 'Roboto', 'Oxygen', 'Ubuntu', sans-serif;
+
+Light Blue
+#61dafb
+
+Light Grey
+#282c34;
+
+Dark Grey
+#20232a;
+
+ */
+
+/* Global
+======================= */
+html {
+    font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    border: 0;
+    padding:0;
+    margin: 0;
+    /* min-width: 500px; */
+}
+
+body {
+    border: 0;
+    padding:0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #61dafb;
+    transition: 0.2s ease-out;
+    -webkit-transition: 0.2s ease-out;
+}
+
+a .external {
+    background: lightblue;
+}
+
+a .external:hover {
+    background: skyblue;
+}
+
+img {
+    display: inline-block;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+
+
+/* Header
+======================= */
+
+header {
+    background-color: #20232a;
+    display:block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    background-position-y: 0;
+    /* height: 20px; */
+}
+
+header * {
+    /* display: inline-flex; */
+}
+
+
+.logo img {
+    width: 20px;   
+    /* display: inline-block; */
+    float: left;
+}
+
+.logo {
+    display: inline-block;
+    width: 50px;
+}
+
+
+
+/* Title
+======================= */
+.title {
+    background-color: #282c34;
+
+}
+
+/* Content Gallery/Intro
+======================= */
+
+/* JSX Demos
+======================== */
+
+/* Call to Action
+======================== */
+
+/* Footer
+======================== */
+footer {
+    background-color: #282c34;
 }
